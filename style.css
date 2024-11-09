@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 29, 29);
+    padding: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(251, 238, 185);
+    font-weight: 800;
+
+}
+.navbar a:hover{
+    color:red;
+    font-weight: 800;
+}
+.introone,.intro{
+    width:25vw ;
+    padding: 1vw;
+}
+.intro{
+    height: 27vh;
+    margin-top: 2vw;
+}
+.introone h2{
+    color: brown;
+    text-decoration: underline;
+}
+.introone p{
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.introone p:hover{
+    text-decoration: underline;
+    color: rgba(67, 59, 59, 0.767);
+}
+.infomations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url(flag.jpg);
+    align-items: center;
+}
+.introone{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 35px;
+    align-items: center;
+}
+.all{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.one a{
+    text-decoration: none;
+    color: rgba(9, 9, 252, 0.518);
+    font-weight: 800;
+}
+.one h1{
+    color: rgba(255, 255, 255, 0.83);
+}
+footer{
+    background-color: black;
+}
+.one{
+    margin-top:5vw;
+    line-height: 2vw;
+}
+.copy{
+    color:rgba(255, 255, 255, 0.83) ;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+hr{
+    margin: 50px;
+}
+.one a li:hover{
+    color: rgba(0, 0, 255, 0.286);
+}
+
+
+
